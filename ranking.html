@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    .ranking-widget {
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      color: #111;
+      padding: 24px;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    }
+    .ranking-widget h2 {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 16px;
+    }
+    .ranking-widget table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    .ranking-widget th, .ranking-widget td {
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .ranking-widget th {
+      font-weight: 600;
+    }
+    @media (prefers-color-scheme: dark) {
+      .ranking-widget {
+        background: #1e1e1e;
+        color: #f2f2f2;
+        box-shadow: 0 6px 20px rgba(255, 255, 255, 0.05);
+      }
+      .ranking-widget th, .ranking-widget td {
+        border-bottom: 1px solid #444;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ranking-widget">
+    <h2>🕗 Lernzeit-Ranking</h2>
+    <table>
+      <thead>
+        <tr><th>Mitarbeiter</th><th>Lernzeit diese Woche</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+  <td>Simon Logé</td>
+  <td>00:40 Std.</td>
+</tr>
+
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
